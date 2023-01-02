@@ -1,0 +1,123 @@
+{
+  "name": "BrickBuilder",
+  "description": "Recomposes a Uipath Studio Library or Process solution xamls into the Ashling Reusable Component Template",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.Testing.Activities": "[22.4.2]",
+    "UiPath.WebAPI.Activities": "[1.13.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.6.0",
+  "projectVersion": "1.0.7",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\ComponentNameTemplate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fad61a21-684e-4aed-8d96-13c4b504ccb5",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\TestTemplate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7741086f-4239-4f71-8376-bfb34d79797b",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\BuildTestDocumentation.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2e256692-ea03-4f6c-a9fc-4bdb18aec5a6",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\AnalyzeLibrary_Test1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "133fe30e-4657-4025-a172-6740feea572b",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\StageActivityProject_Test1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c3e159a4-5af9-4288-8cd1-30e4fca25287",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\MergeSourceArguments_Test1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7413e477-6e7e-49a1-a6ce-6bb1be9875f3",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GetSourceArguments_Test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "54cc91d2-6f6d-4b02-8596-bc4a2842af56",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\CreateReadme_Test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5b22408e-3a6d-426b-a195-7f794dc1ed90",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\ProjectDependencies_Test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4b27bbdc-6e89-40e7-89b0-d57a5fe8dec3",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Main_Test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "55deb120-dbf6-4b70-87c3-c52ea9e2f959",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\FixProjectFile_Test.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "53f8266e-ec4c-4cb1-af9c-65dabf7252c9",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

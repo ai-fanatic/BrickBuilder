@@ -1,0 +1,6 @@
+#uipath .gitignore file
+**/.settings/
+**/.local/
+**/.tmh/
+**/.objects/
+**/.templates/
